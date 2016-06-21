@@ -5999,7 +5999,7 @@ Box2D.postDefs = [];
       var x2 = new Vec2;
       var xf;
       var b1 = new AABB();
-      var  = new AABB();
+      var b2 = new AABB();
       var vs = [new Vec2(), new Vec2(), new Vec2(), new Vec2()];
       var color = new Color(0, 0, 0);
       if (flags & DebugDraw.e_shapeBit) {
