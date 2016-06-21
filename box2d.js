@@ -1,8 +1,3 @@
-// ==ClosureCompiler==
-// @output_file_name default.js
-// @compilation_level ADVANCED_OPTIMIZATIONS
-// ==/ClosureCompiler==
-
 /*
  * Copyright (c) 2006-2007 Erin Catto http://www.gphysics.com
  *
