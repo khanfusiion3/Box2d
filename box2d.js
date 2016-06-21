@@ -6369,7 +6369,7 @@ Box2D.postDefs = [];
     var b1 = joint.GetBodyA();
     var b2 = joint.GetBodyB();
     var xf1 = b1.xf;
-    var xf2 = .xf;
+    var xf2 = b2.xf;
     var x1 = xf1.position;
     var x2 = xf2.position;
     var p1 = joint.GetAnchorA();
@@ -6395,7 +6395,7 @@ Box2D.postDefs = [];
       default:
         if (b1 != this.groundBody) this.debugDraw.DrawSegment(x1, p1, color);
         this.debugDraw.DrawSegment(p1, p2, color);
-        if ( != this.groundBody) this.debugDraw.DrawSegment(x2, p2, color);
+        if (b2 != this.groundBody) this.debugDraw.DrawSegment(x2, p2, color);
     }
   }
   World.prototype.DrawShape = function(shape, xf, color) {
